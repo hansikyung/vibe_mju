@@ -1,0 +1,81 @@
+{
+  "navigation": {
+    "home": "홈",
+    "about": "학교소개",
+    "admission": "입학",
+    "academic": "학사",
+    "scholarship": "장학",
+    "career": "취업",
+    "international": "국제교류",
+    "alumni": "동문",
+    "community": "커뮤니티"
+  },
+  "home": {
+    "title": "명지대학교",
+    "subtitle": "진리·사랑·봉사",
+    "description": "디지털 시대의 지성 공간이자 학생·교수·동문을 연결하는 거점 플랫폼",
+    "welcome": "명지대학교에 오신 것을 환영합니다",
+    "quickAccess": "빠른 접근",
+    "announcements": "공지사항",
+    "events": "이벤트",
+    "news": "캠퍼스 소식"
+  },
+  "about": {
+    "title": "학교소개",
+    "philosophy": "건학이념",
+    "history": "역사",
+    "campus": "캠퍼스",
+    "departments": "학과·전공"
+  },
+  "admission": {
+    "title": "입학안내",
+    "undergraduate": "학부입학",
+    "graduate": "대학원입학",
+    "international": "외국인입학",
+    "schedule": "입학일정"
+  },
+  "academic": {
+    "title": "학사정보",
+    "schedule": "학사일정",
+    "curriculum": "교육과정",
+    "graduation": "졸업요건",
+    "systems": "교내시스템"
+  },
+  "scholarship": {
+    "title": "장학금",
+    "types": "장학금 종류",
+    "application": "신청안내",
+    "benefits": "혜택안내"
+  },
+  "career": {
+    "title": "취업지원",
+    "services": "취업서비스",
+    "programs": "취업프로그램",
+    "statistics": "취업통계"
+  },
+  "international": {
+    "title": "국제교류",
+    "exchange": "교환학생",
+    "programs": "글로벌 프로그램",
+    "partnerships": "해외협력"
+  },
+  "alumni": {
+    "title": "동문",
+    "network": "동문네트워크",
+    "mentoring": "멘토링",
+    "donation": "기부"
+  },
+  "community": {
+    "title": "커뮤니티",
+    "notice": "공지사항",
+    "events": "이벤트",
+    "gallery": "갤러리"
+  },
+  "common": {
+    "readMore": "더보기",
+    "search": "검색",
+    "language": "언어",
+    "login": "로그인",
+    "contact": "연락처"
+  }
+}

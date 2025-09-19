@@ -1,0 +1,81 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "admission": "Admission",
+    "academic": "Academic",
+    "scholarship": "Scholarship",
+    "career": "Career",
+    "international": "International",
+    "alumni": "Alumni",
+    "community": "Community"
+  },
+  "home": {
+    "title": "Myongji University",
+    "subtitle": "Truth·Love·Service",
+    "description": "A digital space of intelligence and a hub platform connecting students, faculty, and alumni",
+    "welcome": "Welcome to Myongji University",
+    "quickAccess": "Quick Access",
+    "announcements": "Announcements",
+    "events": "Events",
+    "news": "Campus News"
+  },
+  "about": {
+    "title": "About University",
+    "philosophy": "Philosophy",
+    "history": "History",
+    "campus": "Campus",
+    "departments": "Departments"
+  },
+  "admission": {
+    "title": "Admission",
+    "undergraduate": "Undergraduate",
+    "graduate": "Graduate",
+    "international": "International",
+    "schedule": "Schedule"
+  },
+  "academic": {
+    "title": "Academic",
+    "schedule": "Academic Calendar",
+    "curriculum": "Curriculum",
+    "graduation": "Graduation Requirements",
+    "systems": "Campus Systems"
+  },
+  "scholarship": {
+    "title": "Scholarship",
+    "types": "Types of Scholarships",
+    "application": "Application Guide",
+    "benefits": "Benefits"
+  },
+  "career": {
+    "title": "Career Support",
+    "services": "Career Services",
+    "programs": "Career Programs",
+    "statistics": "Employment Statistics"
+  },
+  "international": {
+    "title": "International",
+    "exchange": "Exchange Programs",
+    "programs": "Global Programs",
+    "partnerships": "International Partnerships"
+  },
+  "alumni": {
+    "title": "Alumni",
+    "network": "Alumni Network",
+    "mentoring": "Mentoring",
+    "donation": "Donation"
+  },
+  "community": {
+    "title": "Community",
+    "notice": "Notice",
+    "events": "Events",
+    "gallery": "Gallery"
+  },
+  "common": {
+    "readMore": "Read More",
+    "search": "Search",
+    "language": "Language",
+    "login": "Login",
+    "contact": "Contact"
+  }
+}
