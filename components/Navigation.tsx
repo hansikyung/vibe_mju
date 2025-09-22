@@ -25,7 +25,9 @@ export default function Navigation() {
 
   const toggleLanguage = () => {
     const newLocale = locale === 'ko' ? 'en' : 'ko';
-    const newPath = pathname.replace(`/${locale}`, `/${newLocale}`);
+    const newPath = pathname.startsWith(`/${locale}`) 
+      ? pathname.replace(`/${locale}`, `/${newLocale}`)
+      : `/${newLocale}${pathname}`;
     router.push(newPath);
   };
 

@@ -1,8 +1,8 @@
-import { useTranslations } from 'next-intl';
+import { getTranslations } from 'next-intl/server';
 import Navigation from '../../components/Navigation';
 
-export default function AcademicPage() {
-  const t = useTranslations('academic');
+export default async function AcademicPage() {
+  const t = await getTranslations('academic');
 
   return (
     <div className="min-h-screen bg-gray-50">

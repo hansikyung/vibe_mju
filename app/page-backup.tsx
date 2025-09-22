@@ -1,65 +1,24 @@
-export default function Home() {
+import { getTranslations } from 'next-intl/server';
+import Navigation from '../components/Navigation';
+
+export default async function Home() {
+  const t = await getTranslations('home');
+
   return (
     <div className="min-h-screen bg-gray-50">
-      <nav className="bg-white shadow-lg">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between h-16">
-            <div className="flex items-center">
-              <div className="h-8 w-8 bg-blue-600 rounded-full flex items-center justify-center">
-                <span className="text-white font-bold text-sm">MJU</span>
-              </div>
-              <span className="ml-2 text-xl font-bold text-gray-900">
-                명지대학교
-              </span>
-            </div>
-            
-            <div className="hidden md:flex items-center space-x-8">
-              <a href="/" className="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">
-                홈
-              </a>
-              <a href="/admission" className="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">
-                입학
-              </a>
-              <a href="/academic" className="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">
-                학사
-              </a>
-              <a href="/scholarship" className="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">
-                장학
-              </a>
-              <a href="/career" className="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">
-                취업
-              </a>
-              <a href="/international" className="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">
-                국제교류
-              </a>
-              <a href="/alumni" className="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">
-                동문
-              </a>
-              <a href="/community" className="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">
-                커뮤니티
-              </a>
-            </div>
-
-            <div className="flex items-center space-x-4">
-              <button className="bg-blue-600 text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-blue-700">
-                로그인
-              </button>
-            </div>
-          </div>
-        </div>
-      </nav>
+      <Navigation />
       
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-5xl md:text-6xl font-bold mb-6">
-            명지대학교
+            {t('title')}
           </h1>
           <p className="text-xl md:text-2xl mb-4 text-blue-100">
-            진리·사랑·봉사
+            {t('subtitle')}
           </p>
           <p className="text-lg md:text-xl text-blue-200 max-w-3xl mx-auto">
-            디지털 시대의 지성 공간이자 학생·교수·동문을 연결하는 거점 플랫폼
+            {t('description')}
           </p>
         </div>
       </section>
@@ -68,7 +27,7 @@ export default function Home() {
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
-            빠른 접근
+            {t('quickAccess')}
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="bg-blue-50 p-6 rounded-lg text-center hover:shadow-lg transition-shadow">
@@ -98,6 +57,75 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-2">국제교류</h3>
               <p className="text-gray-600">글로벌 프로그램</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* News & Events Section */}
+      <section className="py-16 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+            <div>
+              <h2 className="text-3xl font-bold text-gray-900 mb-8">
+                {t('announcements')}
+              </h2>
+              <div className="space-y-4">
+                <div className="bg-white p-6 rounded-lg shadow-sm border-l-4 border-blue-600">
+                  <h3 className="text-lg font-semibold text-gray-900 mb-2">
+                    2024학년도 2학기 학사일정 안내
+                  </h3>
+                  <p className="text-gray-600 text-sm mb-2">2024.12.15</p>
+                  <p className="text-gray-700">
+                    2024학년도 2학기 학사일정을 안내드립니다...
+                  </p>
+                </div>
+                <div className="bg-white p-6 rounded-lg shadow-sm border-l-4 border-green-600">
+                  <h3 className="text-lg font-semibold text-gray-900 mb-2">
+                    장학금 신청 안내
+                  </h3>
+                  <p className="text-gray-600 text-sm mb-2">2024.12.10</p>
+                  <p className="text-gray-700">
+                    성적우수장학금 및 생활비지원장학금 신청을 안내드립니다...
+                  </p>
+                </div>
+              </div>
+            </div>
+            
+            <div>
+              <h2 className="text-3xl font-bold text-gray-900 mb-8">
+                {t('events')}
+              </h2>
+              <div className="space-y-4">
+                <div className="bg-white p-6 rounded-lg shadow-sm">
+                  <div className="flex items-center mb-3">
+                    <div className="bg-red-100 text-red-800 px-3 py-1 rounded-full text-sm font-medium">
+                      12/20
+                    </div>
+                    <span className="ml-3 text-gray-600 text-sm">2024.12.20</span>
+                  </div>
+                  <h3 className="text-lg font-semibold text-gray-900 mb-2">
+                    겨울방학 특별 프로그램
+                  </h3>
+                  <p className="text-gray-700">
+                    겨울방학을 활용한 특별 프로그램을 운영합니다...
+                  </p>
+                </div>
+                <div className="bg-white p-6 rounded-lg shadow-sm">
+                  <div className="flex items-center mb-3">
+                    <div className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">
+                      12/25
+                    </div>
+                    <span className="ml-3 text-gray-600 text-sm">2024.12.25</span>
+                  </div>
+                  <h3 className="text-lg font-semibold text-gray-900 mb-2">
+                    캠퍼스 투어 프로그램
+                  </h3>
+                  <p className="text-gray-700">
+                    예비 신입생을 위한 캠퍼스 투어 프로그램을 진행합니다...
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
