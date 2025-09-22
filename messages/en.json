@@ -32,44 +32,68 @@
     "undergraduate": "Undergraduate",
     "graduate": "Graduate",
     "international": "International",
-    "schedule": "Schedule"
+    "schedule": "Schedule",
+    "types": "Admission Types",
+    "application": "Application Guide",
+    "benefits": "Benefits"
   },
   "academic": {
     "title": "Academic",
     "schedule": "Academic Calendar",
     "curriculum": "Curriculum",
     "graduation": "Graduation Requirements",
-    "systems": "Campus Systems"
+    "systems": "Campus Systems",
+    "services": "Academic Services",
+    "calendar": "Academic Calendar",
+    "campusSystems": "Campus Systems"
   },
   "scholarship": {
     "title": "Scholarship",
     "types": "Types of Scholarships",
     "application": "Application Guide",
-    "benefits": "Benefits"
+    "benefits": "Benefits",
+    "process": "Application Process",
+    "periods": "Application Periods"
   },
   "career": {
     "title": "Career Support",
     "services": "Career Services",
     "programs": "Career Programs",
-    "statistics": "Employment Statistics"
+    "statistics": "Employment Statistics",
+    "consulting": "Career Counseling",
+    "jobInfo": "Job Information",
+    "education": "Career Education"
   },
   "international": {
     "title": "International",
     "exchange": "Exchange Programs",
     "programs": "Global Programs",
-    "partnerships": "International Partnerships"
+    "partnerships": "International Partnerships",
+    "internship": "Global Internship",
+    "language": "Language Study",
+    "dualDegree": "Dual Degree",
+    "volunteer": "International Volunteer"
   },
   "alumni": {
     "title": "Alumni",
     "network": "Alumni Network",
     "mentoring": "Mentoring",
-    "donation": "Donation"
+    "donation": "Donation",
+    "association": "Alumni Association",
+    "professional": "Professional Alumni",
+    "overseas": "Overseas Alumni",
+    "stories": "Success Stories"
   },
   "community": {
     "title": "Community",
     "notice": "Notice",
     "events": "Events",
-    "gallery": "Gallery"
+    "gallery": "Gallery",
+    "services": "Community Services",
+    "recent": "Recent Notices",
+    "upcoming": "Upcoming Events",
+    "photo": "Campus Gallery",
+    "statistics": "Community Statistics"
   },
   "common": {
     "readMore": "Read More",

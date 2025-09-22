@@ -32,44 +32,68 @@
     "undergraduate": "학부입학",
     "graduate": "대학원입학",
     "international": "외국인입학",
-    "schedule": "입학일정"
+    "schedule": "입학일정",
+    "types": "입학 유형별 안내",
+    "application": "신청 안내",
+    "benefits": "혜택 안내"
   },
   "academic": {
     "title": "학사정보",
     "schedule": "학사일정",
     "curriculum": "교육과정",
     "graduation": "졸업요건",
-    "systems": "교내시스템"
+    "systems": "교내시스템",
+    "services": "학사 서비스",
+    "calendar": "학사일정",
+    "campusSystems": "교내 시스템"
   },
   "scholarship": {
     "title": "장학금",
     "types": "장학금 종류",
     "application": "신청안내",
-    "benefits": "혜택안내"
+    "benefits": "혜택안내",
+    "process": "신청 절차",
+    "periods": "신청 기간"
   },
   "career": {
     "title": "취업지원",
     "services": "취업서비스",
     "programs": "취업프로그램",
-    "statistics": "취업통계"
+    "statistics": "취업통계",
+    "consulting": "취업상담",
+    "jobInfo": "채용정보",
+    "education": "취업교육"
   },
   "international": {
     "title": "국제교류",
     "exchange": "교환학생",
     "programs": "글로벌 프로그램",
-    "partnerships": "해외협력"
+    "partnerships": "해외협력",
+    "internship": "글로벌 인턴십",
+    "language": "어학연수",
+    "dualDegree": "복수학위",
+    "volunteer": "국제봉사"
   },
   "alumni": {
     "title": "동문",
     "network": "동문네트워크",
     "mentoring": "멘토링",
-    "donation": "기부"
+    "donation": "기부",
+    "association": "동문회",
+    "professional": "직업별 동문회",
+    "overseas": "해외 동문회",
+    "stories": "동문 성공 스토리"
   },
   "community": {
     "title": "커뮤니티",
     "notice": "공지사항",
     "events": "이벤트",
-    "gallery": "갤러리"
+    "gallery": "갤러리",
+    "services": "커뮤니티 서비스",
+    "recent": "최신 공지사항",
+    "upcoming": "다가오는 이벤트",
+    "photo": "캠퍼스 갤러리",
+    "statistics": "커뮤니티 현황"
   },
   "common": {
     "readMore": "더보기",
